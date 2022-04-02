@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -10229,6 +10229,15 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="+3V9" library="sjg-supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="USE" value="0201B102K250CT"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -10436,6 +10445,11 @@ Pin 45</text>
 <instance part="SUPPLY12" gate="GND" x="170.18" y="43.18" smashed="yes">
 <attribute name="VALUE" x="168.275" y="40.005" size="1.778" layer="96"/>
 </instance>
+<instance part="C27" gate="G$1" x="251.46" y="228.6" smashed="yes" grouprefs="DECOUPLING">
+<attribute name="NAME" x="252.984" y="228.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.984" y="223.901" size="1.778" layer="96"/>
+<attribute name="USE" x="251.46" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 <bus name="GPIO:GPIO[0..25]">
@@ -10555,6 +10569,10 @@ Pin 45</text>
 <wire x1="342.9" y1="218.44" x2="355.6" y2="218.44" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <junction x="342.9" y="218.44" grouprefs="DECOUPLING"/>
 <junction x="355.6" y="218.44" grouprefs="DECOUPLING"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="223.52" x2="251.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="218.44" x2="266.7" y2="218.44" width="0.1524" layer="91"/>
+<junction x="266.7" y="218.44"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -10776,8 +10794,9 @@ Pin 45</text>
 <wire x1="342.9" y1="236.22" x2="342.9" y2="231.14" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <junction x="330.2" y="236.22" grouprefs="DECOUPLING"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="266.7" y1="236.22" x2="266.7" y2="241.3" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
+<wire x1="266.7" y1="236.22" x2="266.7" y2="238.76" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="238.76" x2="266.7" y2="241.3" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <wire x1="342.9" y1="236.22" x2="355.6" y2="236.22" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <wire x1="355.6" y1="236.22" x2="355.6" y2="231.14" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <junction x="342.9" y="236.22" grouprefs="DECOUPLING"/>
@@ -10785,6 +10804,10 @@ Pin 45</text>
 <wire x1="355.6" y1="236.22" x2="368.3" y2="236.22" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <wire x1="368.3" y1="236.22" x2="368.3" y2="231.14" width="0.1524" layer="91" grouprefs="DECOUPLING"/>
 <junction x="355.6" y="236.22" grouprefs="DECOUPLING"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="238.76" x2="251.46" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="238.76" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
+<junction x="266.7" y="238.76"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VCC"/>

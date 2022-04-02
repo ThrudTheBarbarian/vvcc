@@ -1,0 +1,5 @@
+Ideas for test-board
+
+- Make sure we have one of the level-translators on-board
+
+

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -9844,7 +9844,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="P+1" library="sjg-supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+2" library="sjg-supply1" deviceset="+5V" device=""/>
-<part name="IC2" library="samacsys" deviceset="RP2040" device=""/>
+<part name="IC2" library="samacsys" deviceset="RP2040" device="">
+<attribute name="USE" value="SC0914(13)"/>
+</part>
 <part name="+3V1" library="sjg-supply1" deviceset="+3V3" device=""/>
 <part name="U$1" library="sjg-supply1" deviceset="+1V1" device=""/>
 <part name="IC3" library="samacsys" deviceset="NCP1117LPST33T3G" device="">
@@ -10100,8 +10102,12 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </spice>
 <attribute name="USE" value="C0201C270J3GAC7867"/>
 </part>
-<part name="J2" library="samacsys" deviceset="302-S301" device=""/>
-<part name="J3" library="samacsys" deviceset="302-S301" device=""/>
+<part name="J2" library="samacsys" deviceset="302-S301" device="">
+<attribute name="USE" value="302-S301"/>
+</part>
+<part name="J3" library="samacsys" deviceset="302-S301" device="">
+<attribute name="USE" value="302-S301"/>
+</part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -10153,7 +10159,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="USE" value="CR0201-JW-103GLF"/>
 </part>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2">
+<attribute name="USE" value="TSHS-105-D-06-A-T-LF"/>
+</part>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC5" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="DT" package3d_urn="urn:adsk.eagle:package:30369/1" technology="-TR">
 <attribute name="USE" value="LD1117ADT-TR"/>
@@ -10197,7 +10205,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="USE" value="RC0201FR-071KL"/>
 </part>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="IC6" library="samacsys" deviceset="CLXC8T245QRHLRQ1" device=""/>
+<part name="IC6" library="samacsys" deviceset="CLXC8T245QRHLRQ1" device="">
+<attribute name="USE" value="CLXC8T245QRHLRQ1"/>
+</part>
 <part name="+3V8" library="sjg-supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="100nF">
@@ -10258,6 +10268,7 @@ Pin 44</text>
 <instance part="IC2" gate="G$1" x="139.7" y="104.14" smashed="yes">
 <attribute name="NAME" x="121.92" y="165.608" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="38.1" size="1.778" layer="96"/>
+<attribute name="USE" x="139.7" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="111.76" y="167.64" smashed="yes">
 <attribute name="VALUE" x="109.22" y="162.56" size="1.778" layer="96" rot="R90"/>
@@ -10409,10 +10420,12 @@ Pin 44</text>
 <instance part="J2" gate="G$1" x="223.52" y="99.06" smashed="yes">
 <attribute name="NAME" x="215.9" y="120.142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="76.2" size="1.778" layer="96"/>
+<attribute name="USE" x="223.52" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="297.18" y="99.06" smashed="yes">
 <attribute name="NAME" x="289.56" y="120.142" size="1.778" layer="95"/>
 <attribute name="VALUE" x="289.56" y="76.2" size="1.778" layer="96"/>
+<attribute name="USE" x="297.18" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="208.28" y="73.66" smashed="yes">
 <attribute name="VALUE" x="206.375" y="70.485" size="1.778" layer="96"/>
@@ -10444,6 +10457,7 @@ Pin 44</text>
 <instance part="JP1" gate="A" x="223.52" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="229.87" y="24.765" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="229.87" y="43.18" size="1.778" layer="96" rot="R180"/>
+<attribute name="USE" x="223.52" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="210.82" y="43.18" smashed="yes">
 <attribute name="VALUE" x="208.915" y="40.005" size="1.778" layer="96"/>
@@ -11551,6 +11565,7 @@ OUT and ADJ</text>
 <instance part="IC6" gate="G$1" x="73.66" y="124.46" smashed="yes">
 <attribute name="NAME" x="63.5" y="152.908" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="91.44" size="1.778" layer="96"/>
+<attribute name="USE" x="73.66" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="223.52" y="226.06" smashed="yes">
 <attribute name="NAME" x="215.9" y="234.188" size="1.778" layer="95"/>

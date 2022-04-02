@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="3" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="3" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -9828,7 +9828,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <schematic_group name="DECOUPLING"/>
 </groups>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="RP2040_DESIGN"/>
 <part name="IC1" library="samacsys" deviceset="MCP40D18T-104E_LT" device="" value="MCP40D19T-5K">
 <attribute name="USE" value="MCP4019T-502E/LT"/>
 </part>
@@ -10023,18 +10023,18 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V4" library="sjg-supply1" deviceset="+3V3" device=""/>
-<part name="RESET" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="RESET">
+<part name="RESET" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="B3F-1005">
 <attribute name="USE" value="B3F-1005"/>
 </part>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="10uF">
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="USE" value="CL05A106MP5NUNC"/>
+<attribute name="USE" value="GRM155R60J106ME15D"/>
 </part>
 <part name="SPV" library="x-pi" deviceset="MIC803-30D2VM3-TR" device="" value="MIC803-30D3VM3-TR">
 <attribute name="USE" value="MIC803-30D3VM3-TR"/>
@@ -10047,7 +10047,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="USE" value="GRM033R61A104ME15D"/>
+<attribute name="USE" value="0201X104M160CT"/>
 </part>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10K">
 <spice>
@@ -10059,7 +10059,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="USE" value="CR0201-JW-103GLF"/>
 </part>
 <part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="USB_BOOT" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="USB_BOOT">
+<part name="USB_BOOT" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="B3F-1005">
 <attribute name="USE" value="B3F-1005"/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="1K">
@@ -10159,8 +10159,8 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="USE" value="CR0201-JW-103GLF"/>
 </part>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2">
-<attribute name="USE" value="TSHS-105-D-06-A-T-LF"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2" value="ADC_IO">
+<attribute name="USE" value="PR20205VBDN"/>
 </part>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC5" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="DT" package3d_urn="urn:adsk.eagle:package:30369/1" technology="-TR">
@@ -10204,7 +10204,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </spice>
 <attribute name="USE" value="RC0201FR-071KL"/>
 </part>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="RP2040_IO"/>
 <part name="IC6" library="samacsys" deviceset="CLXC8T245QRHLRQ1" device="">
 <attribute name="USE" value="CLXC8T245QRHLRQ1"/>
 </part>
@@ -10386,8 +10386,8 @@ Pin 44</text>
 <attribute name="VALUE" x="50.8" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="USB_BOOT" gate="S" x="78.74" y="142.24" smashed="yes">
-<attribute name="NAME" x="76.2" y="135.89" size="1.778" layer="95"/>
-<attribute name="VALUE" x="76.2" y="135.89" size="1.778" layer="96"/>
+<attribute name="NAME" x="73.66" y="135.89" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="148.59" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="93.98" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="90.3986" y="128.27" size="1.778" layer="95" rot="R270"/>
@@ -10455,8 +10455,8 @@ Pin 44</text>
 <attribute name="VALUE" x="267.335" y="19.685" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="223.52" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="229.87" y="24.765" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="229.87" y="43.18" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="226.06" y="41.529" size="1.778" layer="95"/>
+<attribute name="VALUE" x="213.36" y="22.86" size="1.778" layer="96"/>
 <attribute name="USE" x="223.52" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="210.82" y="43.18" smashed="yes">
@@ -11659,7 +11659,7 @@ OUT and ADJ</text>
 </instance>
 <instance part="RESET" gate="S" x="314.96" y="137.16" smashed="yes">
 <attribute name="NAME" x="312.42" y="130.81" size="1.778" layer="95"/>
-<attribute name="VALUE" x="312.42" y="130.81" size="1.778" layer="96"/>
+<attribute name="VALUE" x="309.88" y="141.986" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY26" gate="GND" x="304.8" y="114.3" smashed="yes">
 <attribute name="VALUE" x="302.895" y="111.125" size="1.778" layer="96"/>
@@ -11670,8 +11670,8 @@ OUT and ADJ</text>
 </instance>
 <instance part="SPV" gate="G$1" x="322.58" y="152.4" smashed="yes">
 <attribute name="USE" x="322.58" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="312.42" y="157.988" size="1.778" layer="95"/>
-<attribute name="VALUE" x="312.42" y="144.78" size="1.778" layer="96"/>
+<attribute name="NAME" x="327.914" y="145.034" size="1.778" layer="95"/>
+<attribute name="VALUE" x="310.642" y="158.496" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V21" gate="G$1" x="297.18" y="162.56" smashed="yes">
 <attribute name="VALUE" x="294.64" y="157.48" size="1.778" layer="96" rot="R90"/>

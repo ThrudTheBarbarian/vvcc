@@ -1,0 +1,21 @@
+ID,Name,Designator,Package,Quantity,Manufacturer Part,Manufacturer,Supplier,Supplier Part,Mounted
+1,100nF,"C1, C4, C5, C6, C7, C8, C9, C10, C11, C12, C14, C15, C16, C24, C25, C26",0201,16,0201X104M160CT,Walsin Technology corp,Digi-Key,1292-1163-2-ND,Yes
+2,10K,"R7, R8, R9, R10",0201,4,CR0201-JW-103GLF,"Bourns, Inc",Digi-Key,CR0201-JW-103GLFTR-ND,Yes
+3,10uF,"C2, C3, C17, C21, C22, C23",0402,6,GRM155R60J106ME15D,Murata Electronics,Digi-Key,490-13238-2-ND,Yes
+4,12 MHz crystal,Q1,HC/49US-(AT49)_1,1,ABLS-12.000MHZ-B4-T,Abrasion LLC,Digi-Key,535-10218-2-ND,Yes
+5,16MB Flash,IC4,8-SOIC,1,W25Q128JVSIM,Winbond Electronics,Digi-Key,W25Q128JVSIM-ND,Yes
+6,1K,"R3, R4, R11, R12, R13, R14, R15",0201,7,RC0201FR-071KL,Yageo,Digi-Key,311-1KMTR-ND,Yes
+7,1uF,"C13, C27",0201,2,0201B102K250CT,Walsin Technology corp,Digi-Key,1292-1621-2-ND,Yes
+8,27R4,"R1, R2",0201,2,RC0201FR-0727R4L,Yageo,Digi-Key,YAG2553TR-ND,Yes
+9,27pF,"C19, C20",0201,2,C0201C270J3GAC7867,Kemet,Digi-Key,399-C0201C270J3GAC7867TR-ND,Yes
+10,PINHD-2x15,"J2, J3",0.1” 2x15,2,302-S301,On Shore Technology Inc,Digi-Key,ED10527-ND,Yes
+11,4K7,"R5, R6",0201,2,ERJ-1GNJ472C,Panasonic Electronic Components,Digi-Key,P4.7AETR-ND,Yes
+12,PINHD-2x5,JP1,"0.1"" 2x5",1,PR20205VBDN,Metz Connect USA inc,Digi-Key,1849-1002-ND,Yes
+13,Tactile-switch,"RESET,USB_BOOT",6x6mm,2,B3F-1005,Omron Electronics Inc EMC Div,Digi-Key,SW793-ND,Yes
+14,Level-changer,IC6,24-VFQFN,1,CLXC8T245QRHLRQ1,Texas Instruments,Digi-Key,296-CLXC8T245QRHLRQ1TR-ND,Yes
+15,Voltage regulator,IC5,DPAK,1,LD1117ADT-TR,ST Microelectronics,Digi-Key,497-3452-2-ND,Yes
+16,Digital Potentiometer,IC1,6-SC70,1,MCP4019T-502E/LT,Microchip Technology,Digi-Key,MCP4019T-502E/LTTR-ND,Yes
+17,Micro-USB B,J1,USB-micro-B,1,MCR-B-S-RA-SMT-CS14-T/R,Adam Tech,Digi-Key,2057-MCR-B-S-RA-SMT-CS14-T/R-ND,Yes
+18,Voltage regulator,IC3,SOT-223-3,1,NCP1117LPST33T3G,Onsemi,Mouser,863-NCP1117LPST33T3G,Yes
+19,RP2040,IC2,56-QFN,1,SC0914(13),Raspberry Pi,Digi-Key,2648-SC0914(13)TR-ND,Yes
+20,SMD Diode,"D1,D2,D3,D4",0603,1,B1931NG--20D001114U1930,Harvatek Corporation,Digi-Key,3147-B1931NG--20D001114U1930TR-ND,Yes

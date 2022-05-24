@@ -19,7 +19,7 @@ So basically a testing-ground. Enjoy.
 Thrud
 
 
-#Update 25/May/2022
+# Update 25/May/2022
 
 Boards came back today, with slightly mixed results. Plugging the first board in, the leds flickered, presumably magic smoke exited stage left, and the 3.3v power rail was churning out 1.1v...
 

@@ -25,7 +25,7 @@ Boards came back today, with slightly mixed results. Plugging the first board in
 
 Checking everything against the schematic, it seemed ok, nothing was placed the wrong way around, and even running through the boot process for the I2C resistance looked like the voltage would be ok (4.3v by default).
 
-I was left wondering whether the boot process did weird things, which seems vanishingly unlikely, but ... Anyway, holding down reset & boot buttons made it boot up ok, appear as RPI2_BOOT on the Mac, and none of the LEDs flashed, 3.3v rail seems ok (LED lights) etc. 
+I was left wondering whether the boot process did weird things, which seems vanishingly unlikely, but ... Anyway, holding down reset & boot buttons on a second board made that boot up ok, appear as RPI2_BOOT on the Mac, and none of the LEDs flashed, 3.3v rail seems ok (LED lights) etc. 
 
 So my advice is that if you get these made, make sure you initialise it with known firmware before letting it boot on its own. There is a pullup missing on the /CS line for the flash, but it's also missing in the RP2040 hardware design guide with the comment that they found they didn't need it. I'll definitely include it in future mind.
 
